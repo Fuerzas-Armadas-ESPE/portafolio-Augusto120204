@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+
+.compétences-container {
+    font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.compétences-container .compétences-box {
+    flex: 1 1 100rem;
+    background-color: #323946;
+    padding: 3rem 2rem 3rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid #323946;
+    transition: .5s ease;
+}
+.compétences-container .compétences-box:hover {
+    border-color: #2f7bff;
+}
+
+.compétences-box img {
+    width: 5rem;
+    height: 5rem;
+    object-fit:contain;
+}
+
+.compétences-box h3 {
+    font-size: 4.6rem;
+    text-shadow: 0.07em 0.07em #1b0d0c;
+}
+.compétences-box span{
+    font-size: 3rem;
+}
+.compétences-box p {
+    font-size: 2.6rem;
+}
